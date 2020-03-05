@@ -8,10 +8,9 @@
     width: 1200px;
 }
 
-.banner__bg {
+.banner-bg {
     position: relative;
     display: flex;
-    align-items: center;
     background-image: url("../img/header-bg.jpg");
     z-index: 1;
     width: 100%;
@@ -28,7 +27,7 @@
     width: 100%;
     height: 110px;
     background: rgba(0, 0, 0, 0.25);
-    z-index: 10;
+    z-index: 30;
 }
 
 .header__wrapper {
@@ -36,18 +35,18 @@
     justify-content: space-between;
     width: 940px;
     height: 100%;
-    z-index: 20;
+    z-index: 40;
 }
 
 .header__link-logo {
     display: flex;
-    height: 100%;
+    margin-top: 27px;
+    height: 40px;
 }
 
 .header__logo {
-    margin-top: 27px;
     width: 147px;
-    height: 40px;
+    height: 100%;
 }
 
 .header__nav {
@@ -63,4 +62,88 @@
     font-size: 18px;
     color: #ffffff;
     text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 215px;
+    z-index: 20;
+}
+
+.banner__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.banner__title {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 48px;
+    text-align: center;
+    font-family: "OpenSans Light", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 62px;
+}
+
+.banner__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 294px;
+    height: 49px;
+    margin-bottom: 71px;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    outline: none;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner__brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 205px;
+    margin-bottom: 52px;
+}
+
+.banner__brand-apple {
+    width: 47px;
+    height: 56px;
+}
+
+.banner__brand-android {
+    width: 43px;
+    height: 47px;
+}
+
+.banner__brand-microsoft {
+    width: 44px;
+    height: 41px;
+}
+
+.banner__descr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-family: "OpenSans Light", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 24px;
+}
+
+.hand {
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    z-index: 10;
 }
