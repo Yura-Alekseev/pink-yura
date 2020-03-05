@@ -1,2 +1,66 @@
 @import "reset.css";
 @import "fonts.css";
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.banner__bg {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/header-bg.jpg");
+    z-index: 1;
+    width: 100%;
+    height: 853px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 110px;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+    height: 100%;
+    z-index: 20;
+}
+
+.header__link-logo {
+    display: flex;
+    height: 100%;
+}
+
+.header__logo {
+    margin-top: 27px;
+    width: 147px;
+    height: 40px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 620px;
+    height: 100%;
+}
+
+.header__nav-link {
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
