@@ -1,14 +1,14 @@
-.banner--bg {
+.banner {
     position: relative;
     display: flex;
     flex-direction: column;
-    background: url("../img/header-bg.jpg") no-repeat;
+    background: url("../../img/header-bg.jpg") no-repeat;
     background-size: 100%;
     width: 100%;
     height: 100vh;
 }
 
-.banner {
+.banner__wrapper {
     display: flex;
     align-items: center;
     height: 100%;
@@ -17,7 +17,7 @@
     z-index: 10;
 }
 
-.banner__wrapper {
+.banner__sub-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +86,7 @@
     line-height: 24px;
 }
 
-.hand {
+.banner__hand {
     position: absolute;
     bottom: 0;
     right: 100px;

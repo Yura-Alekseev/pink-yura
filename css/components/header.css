@@ -26,17 +26,3 @@
     height: 40px;
 }
 
-.header__nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 59%;
-    height: 100%;
-}
-
-.header__nav-link {
-    font-family: "OpenSans Regular", sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    text-decoration: none;
-}
