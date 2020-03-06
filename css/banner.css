@@ -1,0 +1,93 @@
+.banner--bg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: url("../img/header-bg.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 73%;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.banner__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.banner__title {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 48px;
+    text-align: center;
+    font-family: "OpenSans Light", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 62px;
+}
+
+.banner__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 49px;
+    margin-bottom: 71px;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    outline: none;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.banner__brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 52px;
+}
+
+.banner__brand-apple {
+    width: 47px;
+    height: 56px;
+}
+
+.banner__brand-android {
+    width: 43px;
+    height: 47px;
+}
+
+.banner__brand-microsoft {
+    width: 44px;
+    height: 41px;
+}
+
+.banner__descr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-family: "OpenSans Light", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 24px;
+}
+
+.hand {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}

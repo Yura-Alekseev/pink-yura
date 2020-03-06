@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 14%;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 73%;
+    height: 100%;
+}
+
+.header__link-logo {
+    display: flex;
+    height: min-content;
+}
+
+.header__logo {
+    width: 147px;
+    height: 40px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 59%;
+    height: 100%;
+}
+
+.header__nav-link {
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
