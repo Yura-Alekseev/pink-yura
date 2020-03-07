@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 59%;
+    height: 100%;
+}
+
+.navigation__link {
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
