@@ -1,0 +1,114 @@
+.tariffs {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.tariffs__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.tariffs__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 73%;
+    margin: 0 auto;
+    padding: 150px 0 100px;
+    z-index: 10;
+}
+
+.tariffs__table-header {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #f2f2f2;
+}
+
+.tariffs__table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e5e5;
+}
+
+.tariffs__row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.tariffs__table-header-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    height: 98px;
+    background: #283645;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+}
+
+.tariffs__table-title {
+    margin-bottom: 10px;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.tariffs__table-value {
+    font-family: "OpenSans Light", sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.tariffs__sticker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 74px;
+    height: 73px;
+    background-image: url("../../img/ribbon.png");
+}
+
+.tariffs__sticker-text {
+    padding-top: 7px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.tariffs__table-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 235px;
+    height: 60px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+}
+
+.tariffs__table-item--main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 24px;
+}
+
+.tariffs__row-title {
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #283645;
+}
+
