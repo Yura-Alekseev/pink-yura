@@ -1,0 +1,112 @@
+.offers {
+    position: relative;
+    display: flex;
+    height: 1361px;
+}
+
+.offers__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    clip-path: polygon(0 32%, 100% 24%, 100% 100%, 0% 100%);
+}
+
+.offers__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 73%;
+    z-index: 20;
+}
+
+.offers__title {
+    width: 80%;
+    padding-top: 80px;
+    margin-bottom: 70px;
+    font-family: "OpenSans Light", sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: #283645;
+    text-align: center;
+}
+
+.offers__main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.offers__main-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+}
+
+.offers__main-photo {
+    margin-bottom: 60px;
+}
+
+.offers__main-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+.offers__main-text {
+    text-align: center;
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #283645;
+}
+
+.offers__facts {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.offers__facts-timer {
+    width: 294px;
+    height: 345px;
+    margin-right: 70px;
+}
+
+.offers__facts-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.offers__facts-title {
+    margin-bottom: 20px;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+.offers__facts-text {
+    margin-bottom: 35px;
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #283645;
+}
+
+.offers__facts-link {
+    width: fit-contentgit;
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    color: #d22856;
+}
+
+.offers__facts-link:hover {
+    text-decoration: none;
+}
