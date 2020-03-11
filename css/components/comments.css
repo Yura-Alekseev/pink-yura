@@ -1,0 +1,21 @@
+.comments__text {
+    width: 80%;
+    margin-bottom: 40px;
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #283645;
+}
+
+.comments__author {
+    margin-bottom: 15px;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 24px;
+    color: #000000;
+}
+
+.comments__author-info {
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    color: #283645;
+}
