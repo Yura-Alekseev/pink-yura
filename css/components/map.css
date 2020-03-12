@@ -1,0 +1,9 @@
+.map .section {
+    height: 500px;
+}
+
+.map .section__bg {
+    clip-path: polygon(50% 20%, 0 0, 100% 0);
+    z-index: 10;
+    background: #ffffff;
+}
