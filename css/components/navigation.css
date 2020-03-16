@@ -12,3 +12,9 @@
     color: #ffffff;
     text-decoration: none;
 }
+
+@media (max-width: 767px) {
+    .navigation {
+        display: none;
+    }
+}

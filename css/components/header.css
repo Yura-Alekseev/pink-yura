@@ -26,3 +26,53 @@
     height: 40px;
 }
 
+.header__logo--mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .header__logo {
+        display: none;
+    }
+
+    .header__logo--mobile {
+        display: flex;
+    }
+
+    .header__burger-menu-logo {
+        display: flex;
+    }
+
+    .header__wrapper {
+        width: 87%;
+        height: 100%;
+    }
+
+    .burger-menu  {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 326px;
+        background: #283645;
+        z-index: 30;
+    }
+
+    .burger-menu .header__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger-menu__header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .burger-menu__navigation {
+        display: flex;
+        flex-direction: column;
+    }
+}
