@@ -1,0 +1,119 @@
+.tariffs-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tariffs-table__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tariffs-table__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.tariffs-table__header-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-right: 2px;
+    height: 98px;
+    background: #283645;
+}
+
+.tariffs-table__header-item:nth-child(2) {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.tariffs-table__header-item:last-child {
+    margin-right: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.tariffs-table__header-item--empty {
+    background: none;
+    border-bottom: none;
+}
+
+.tariffs-table__header-title {
+    margin-bottom: 10px;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.tariffs-table__header-value {
+    font-family: "OpenSans Light", sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.tariffs-table__sticker--wrapper {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tariffs-table__sticker {
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 9px 0;
+    left: -35px;
+    top: 10px;
+    width: 120px;
+    background: #d22856;
+}
+
+.tariffs-table__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 60px;
+    background: #ffffff;
+    border-top: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+}
+
+.tariffs-table__item:last-child {
+    border-right: 2px solid #e5e5e5;
+}
+
+.tariffs-table__row:last-child .tariffs-table__item {
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.tariffs-table__item--main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 24px;
+}
+
+.tariffs-table__title {
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #283645;
+}

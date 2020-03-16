@@ -4,7 +4,15 @@
 @import "components/header.css";
 @import "components/navigation.css";
 @import "components/banner.css";
-
+@import "components/offers.css";
+@import "components/offers-items.css";
+@import "components/section.css";
+@import "components/facts.css";
+@import "components/testimonials.css";
+@import "components/comments.css";
+@import "components/swiper-slider.css";
+@import "components/tariffs.css";
+@import "components/tariffs-table.css";
 
 
 

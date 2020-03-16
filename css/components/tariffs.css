@@ -1,0 +1,7 @@
+.tariffs .section__bg {
+    clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.tariffs .section__wrapper {
+    padding: 150px 0 100px;
+}
