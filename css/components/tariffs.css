@@ -1,7 +1,7 @@
-.content-section--tariffs .content-section__bg {
+.tariffs .content-section__bg {
     clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-.content-section--tariffs .content-section__wrapper {
+.tariffs .content-section__wrapper {
     padding: 150px 0 100px;
 }
