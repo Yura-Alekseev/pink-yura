@@ -1,8 +1,8 @@
-.footer .section {
+.footer .content-section {
     height: 200px;
 }
 
-.footer .section__wrapper {
+.footer .content-section__wrapper {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
