@@ -1,8 +1,8 @@
-.offers .content-section__bg {
+.content-section--offers .content-section__bg {
     clip-path: polygon(0 41%, 100% 33%, 100% 100%, 0% 100%);
 }
 
-.offers .content-section__wrapper {
+.content-section--offers .content-section__wrapper {
     padding-bottom: 60px;
 }
 

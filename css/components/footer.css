@@ -1,8 +1,8 @@
-.footer .content-section {
+.content-section--footer {
     height: 200px;
 }
 
-.footer .content-section__wrapper {
+.content-section--footer .content-section__wrapper {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -13,6 +13,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 18%;
+    min-width: 200px;
 }
 
 .footer__socials-item {
@@ -30,6 +31,7 @@
     align-items: center;
     justify-content: space-between;
     width: 14%;
+    min-width: 150px;
 }
 
 .footer__rights-text {
