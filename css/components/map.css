@@ -1,0 +1,13 @@
+.map {
+    height: 500px;
+}
+
+.map .content-section__bg {
+    clip-path: polygon(50% 20%, 0 0, 100% 0);
+    z-index: 10;
+    background: #ffffff;
+}
+
+.map .content-section__wrapper {
+    width: 100%;
+}
