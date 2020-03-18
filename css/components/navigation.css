@@ -17,4 +17,25 @@
     .navigation {
         display: none;
     }
+
+    .burger-menu--open .navigation {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 30;
+        width: 100%;
+    }
+
+    .navigation__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 62px;
+        border-top: 1px solid #485461;
+        border-bottom: 1px solid #000000;
+        font-family: "OpenSans Bold", sans-serif;
+        text-transform: uppercase;
+    }
 }
