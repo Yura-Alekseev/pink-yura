@@ -45,34 +45,45 @@
 </header>
 
 <div class="banner">
+    <div class="banner-bg__wrapper">
+        <div class="banner-bg">
+            <picture>
+                <source srcset="img/hand.png" media="(min-width: 1024px)">
+                <source srcset="img/logo-header-tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                <img src="img/hand-mobile.png" class="banner__hand" alt="hand">
+            </picture>
+        </div>
+    </div>
+
     <section class="banner__wrapper">
         <div class="banner__sub-wrapper">
             <h2 class="banner__title">Взгляните на жизнь иначе!</h2>
-            <a class="banner__link" href="javascript:;">Скачать приложение</a>
+            <div class="banner-section">
+                <div class="banner-section__wrapper">
+                <a class="banner__link" href="javascript:;">Скачать приложение</a>
 
-            <div class="banner__brands">
-                <a class="banner__brand-link" href="https://www.apple.com/" target="_blank">
-                    <img class="banner__brand-apple" src="img/apple-logo.svg" alt="brand-apple">
-                </a>
+                <div class="banner__brands">
+                    <a class="banner__brand-link" href="https://www.apple.com/" target="_blank">
+                        <img class="banner__brand-apple" src="img/apple-logo.svg" alt="brand-apple">
+                    </a>
 
-                <a class="banner__brand-link" href="https://www.android.com/" target="_blank">
-                    <img class="banner__brand-android" src="img/android-logo.svg" alt="brand-apple">
-                </a>
+                    <a class="banner__brand-link" href="https://www.android.com/" target="_blank">
+                        <img class="banner__brand-android" src="img/android-logo.svg" alt="brand-apple">
+                    </a>
 
-                <a class="banner__brand-link" href="https://www.microsoft.com/" target="_blank">
-                    <img class="banner__brand-microsoft" src="img/microsoft-logo.svg" alt="brand-apple">
+                    <a class="banner__brand-link" href="https://www.microsoft.com/" target="_blank">
+                        <img class="banner__brand-microsoft" src="img/microsoft-logo.svg" alt="brand-apple">
 
-                </a>
+                    </a>
+                </div>
+
+                <span class="banner__descr">
+                        Доступно для iPhone, iPad, Android,
+                        Windows Phone, OS X, Windows 8
+                </span>
             </div>
-
-            <span class="banner__descr">
-                    Доступно для iPhone, iPad, Android,
-                    Windows Phone, OS X, Windows 8
-            </span>
         </div>
     </section>
-
-    <img class="banner__hand" src="img/hand.png" alt="hand">
 </div>
 
 <main class="offers">
