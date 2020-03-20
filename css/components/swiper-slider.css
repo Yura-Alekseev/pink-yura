@@ -32,4 +32,36 @@
     transform: scaleX(-1);
 }
 
+@media (max-width: 1023px) {
+    .swiper-slide {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
 
+    .arrow {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 8px;
+        height: 8px;
+        background-color: #ffffff!important;
+        border: 2px solid #283645;
+    }
+
+    .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px;
+        display: inline-block;
+        border-radius: 100%;
+        background-color: #bec2c7;
+    }
+}

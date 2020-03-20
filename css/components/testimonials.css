@@ -1,10 +1,29 @@
-.testimonials .section__wrapper {
+.testimonials .content-section__wrapper {
     padding: 72px 0 40px;
 }
 
 .testimonials__image {
+    display: block;
     width: 79px;
     height: 63px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 767px) {
+    .testimonials .content-section__wrapper {
+        padding: 50px 0 40px;
+        width: 87%;
+    }
+
+    .testimonials__image {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) {
+    .testimonials__image {
+        display: none;
+    }
+}
+
 
