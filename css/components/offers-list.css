@@ -1,21 +1,21 @@
-.offers-items {
+.offers-list {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.offers-items__item {
+.offers-list__item {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 27%;
 }
 
-.offers-items__photo {
+.offers-list__photo {
     margin-bottom: 60px;
 }
 
-.offers-items__title {
+.offers-list__title {
     margin-bottom: 20px;
     text-align: center;
     font-family: "OpenSans Bold", sans-serif;
@@ -23,7 +23,7 @@
     color: #000000;
 }
 
-.offers-items__text {
+.offers-list__text {
     text-align: center;
     font-family: "OpenSans Regular", sans-serif;
     font-size: 18px;
@@ -31,12 +31,12 @@
     color: #283645;
 }
 
-.offers-items__photo--mobile {
+.offers-list__photo--mobile {
     display: none;
 }
 
 @media (max-width: 767px) {
-    .offers-items {
+    .offers-list {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -44,7 +44,7 @@
         padding-top: 80px;
     }
 
-    .offers-items__item {
+    .offers-list__item {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -52,21 +52,21 @@
         margin-bottom: 35px;
     }
 
-    .offers-items__photo {
+    .offers-list__photo {
         display: none;
     }
 
-    .offers-items__title {
+    .offers-list__title {
         margin-bottom: 16px;
         font-size: 18px;
     }
 
-    .offers-items__text {
+    .offers-list__text {
         font-size: 14px;
         line-height: 1.4;
     }
 
-    .offers-items__photo--mobile {
+    .offers-list__photo--mobile {
         display: block;
     }
 }
