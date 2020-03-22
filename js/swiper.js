@@ -17,3 +17,17 @@ var swiper = new Swiper('.swiper-container', {
         }
     }
 });
+
+var swiperTable = new Swiper('.swiper-container--table', {
+    loop: false,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets'
+            }
+        }
+    }
+});
+

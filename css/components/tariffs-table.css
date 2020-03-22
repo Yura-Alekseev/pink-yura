@@ -21,6 +21,10 @@
     border-left: 2px solid #e5e5e5;
 }
 
+.tariffs-table__item:first-child {
+    justify-content: flex-start;
+}
+
 .tariffs-table__item:last-child {
     border-right: 2px solid #e5e5e5;
 }
@@ -95,17 +99,75 @@
     background: #d22856;
 }
 
-
-.tariffs-table__item--main {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 24px;
-}
-
 .tariffs-table__title {
     font-family: "OpenSans Regular", sans-serif;
     font-size: 18px;
+    padding-left: 24px;
     line-height: 28px;
     color: #283645;
+}
+
+@media (max-width: 767px) {
+    .tariffs-table {
+        display: none;
+    }
+
+    .tariffs-table__row {
+        display: none;
+    }
+
+    .tariffs-table__item {
+        width: 100%;
+        height: 60px;
+        background: #ffffff;
+        border-top: 2px solid #e5e5e5;
+        border-left: 2px solid #e5e5e5;
+    }
+
+    .tariffs-table__item:first-child {
+        justify-content: center;
+    }
+
+    .tariffs-table__item-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 84%;
+    }
+
+    .tariffs-table__item--header {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        height: 98px;
+        background: #283645;
+        border: none;
+        border-left: 2px solid #e5e5e5;
+        margin-left: 0;
+    }
+
+    .swiper-slide:first-child .tariffs-table__item--header {
+        border-left: 2px solid #283645;
+        border-top-left-radius: 3px;
+    }
+
+    .tariffs-table__item:last-child {
+        border-bottom: 2px solid #e5e5e5;
+        border-right: none;
+    }
+
+    .swiper-slide:last-child .tariffs-table__item {
+        border-right: 2px solid #e5e5e5;
+    }
+
+    .swiper-slide:last-child .tariffs-table__item--header {
+        border-top-right-radius: 3px;
+        border-right: 2px solid #283645;
+    }
+
+    .tariffs-table__title {
+        font-size: 14px;
+        padding-left: 0;
+        text-transform: uppercase;
+    }
 }
