@@ -107,6 +107,11 @@
     color: #283645;
 }
 
+.tariffs-table__status {
+    width: 28px;
+    height: 28px;
+}
+
 @media (max-width: 767px) {
     .tariffs-table {
         display: none;

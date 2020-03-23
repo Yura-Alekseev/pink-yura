@@ -12,34 +12,28 @@
 
 <header class="header" id="header">
     <div class="header__wrapper">
-        <a class="header__link-logo" href="/">
-            <picture>
-                <source srcset="img/logo-header.svg" media="(min-width: 1024px)">
-                <source srcset="img/logo-header-tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
-                <img src="img/logo-header-mobile.svg" class="header__logo" alt="header-logo">
-            </picture>
-            <!--<img class="header__logo" src="img/logo-header.svg" alt="header-logo">
-            <img class="header__logo&#45;&#45;mobile" src="img/logo-header-mobile.svg" alt="header-logo">-->
-        </a>
+        <div class="header__header">
+            <div class="header__header-wrapper">
+                <a class="header__link-logo" href="/">
+                    <picture>
+                        <source srcset="img/logo-header.svg" media="(min-width: 1024px)">
+                        <source srcset="img/logo-header-tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                        <img src="img/logo-header-mobile.svg" class="header__logo" alt="header-logo">
+                    </picture>
+                </a>
+
+                <img class="header__burger-menu-logo" id="burger-menu" src="img/menu-burger.svg" alt="menu">
+                <img class="header__burger-menu-close" src="img/menu-cross.svg" alt="close">
+            </div>
+        </div>
+
 
         <nav class="navigation">
-            <div class="burger-menu__header">
-                <div class="burger-menu__wrapper">
-                    <a class="header__link-logo" href="/">
-                        <img class="header__logo" src="img/logo-header-mobile.svg" alt="header-logo">
-                    </a>
-
-                    <img class="burger-menu__header-close" src="img/menu-cross.svg" alt="close">
-                </div>
-            </div>
-
             <a class="navigation__link" href="javascript:;">Главная</a>
             <a class="navigation__link" href="javascript:;">Фотографии</a>
             <a class="navigation__link" href="javascript:;">Конкурс</a>
             <a class="navigation__link" href="javascript:;">HTML Academy</a>
         </nav>
-
-        <img class="header__burger-menu-logo" id="burger-menu" src="img/menu-burger.svg" alt="menu">
     </div>
 </header>
 
@@ -58,8 +52,8 @@
         <section class="banner__wrapper">
             <div class="banner__sub-wrapper">
                 <h2 class="banner__title">Взгляните на жизнь иначе!</h2>
-                <div class="banner-section">
-                    <div class="banner-section__wrapper">
+                <div class="banner__info">
+                    <div class="banner__info-wrapper">
                         <a class="banner__link" href="javascript:;">Скачать приложение</a>
 
                         <div class="banner__brands">
