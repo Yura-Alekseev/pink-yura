@@ -112,6 +112,52 @@
     height: 28px;
 }
 
+@media (max-width: 1023px) {
+    .tariffs-table__item {
+        height: 45px;
+    }
+
+    .tariffs-table__item--header {
+        height: 78px;
+    }
+
+    .tariffs-table__header-title {
+        font-size: 16px;
+    }
+
+    .tariffs-table__header-value {
+        font-size: 18px;
+    }
+
+    .tariffs-table__sticker--wrapper {
+        width: 65px;
+        height: 68px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .tariffs-table__sticker {
+        font-size: 12px;
+        padding: 8px 0;
+        left: -30px;
+        top: 6px;
+        width: 100px;
+    }
+
+    .tariffs-table__title {
+        font-size: 14px;
+        padding-left: 15px;
+        line-height: 28px;
+    }
+
+    .tariffs-table__status {
+        width: 26px;
+        height: 26px;
+    }
+}
+
 @media (max-width: 767px) {
     .tariffs-table {
         display: none;

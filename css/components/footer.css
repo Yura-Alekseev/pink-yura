@@ -40,6 +40,28 @@
     color: #283645;
 }
 
+@media (max-width: 1023px) {
+    .footer {
+        height: 127px;
+    }
+
+    .footer .content-section__wrapper {
+        width: 94%;
+    }
+
+    .footer__rights {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 14%;
+        min-width: 126px;
+    }
+
+    .footer__rights-text {
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 767px) {
     .footer {
         display: none;

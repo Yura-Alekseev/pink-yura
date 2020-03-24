@@ -21,6 +21,25 @@
     color: #283645;
 }
 
+@media (max-width: 1023px) {
+    .comments__text {
+        width: 100%;
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .comments__author {
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+
+    .comments__author-info {
+        display: flex;
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 767px) {
     .comments__text {
         width: 100%;

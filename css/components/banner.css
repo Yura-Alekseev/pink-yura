@@ -28,7 +28,6 @@
     right: 100px;
 }
 
-
 .banner__wrapper {
     display: flex;
     align-items: center;
@@ -43,6 +42,7 @@
     flex-direction: column;
     align-items: center;
     width: 300px;
+    padding-top: 100px;
 }
 
 .banner__title {
@@ -58,11 +58,55 @@
     line-height: 1.2;
 }
 
+@media (max-width: 1023px) {
+    .banner {
+        height: 660px;
+        margin-top: -110px;
+    }
+
+    .banner-bg__wrapper {
+        margin-top: 0;
+    }
+
+    .banner-bg {
+        background: url("../../img/header-bg-tablet.jpg") no-repeat;
+        background-size: cover;
+        height: 728px;
+        margin-top: -68px;
+    }
+
+    .banner__hand {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .banner__wrapper {
+        width: 94%;
+        margin: 68px auto 0;
+    }
+
+    .banner__sub-wrapper {
+        justify-content: flex-start;
+        padding-top: 0;
+    }
+
+    .banner__title {
+        width: 70%;
+        font-size: 40px;
+        margin-bottom: 30px;
+        line-height: 1.2;
+    }
+}
 
 @media (max-width: 767px) {
     .banner {
         height: auto;
         margin-top: -68px;
+    }
+
+    .banner-bg__wrapper {
+        margin-top: 0;
     }
 
     .banner-bg {
@@ -96,6 +140,7 @@
     }
 
     .banner__title {
+        width: 100%;
         font-size: 24px;
         margin-bottom: 0;
         line-height: 1.2;
