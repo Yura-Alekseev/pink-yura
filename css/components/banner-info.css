@@ -1,16 +1,16 @@
-.banner__info {
+.banner-info {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.banner__info-wrapper {
+.banner-info__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.banner__link {
+.banner-info__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
     text-decoration: none;
 }
 
-.banner__brands {
+.banner-info__brands {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,22 +34,22 @@
     margin-bottom: 52px;
 }
 
-.banner__brand-apple {
+.banner-info__brand-apple {
     width: 47px;
     height: 56px;
 }
 
-.banner__brand-android {
+.banner-info__brand-android {
     width: 43px;
     height: 47px;
 }
 
-.banner__brand-microsoft {
+.banner-info__brand-microsoft {
     width: 44px;
     height: 41px;
 }
 
-.banner__descr {
+.banner-info__descr {
     display: flex;
     align-items: center;
     width: 100%;
@@ -61,30 +61,30 @@
 }
 
 @media (max-width: 1023px) {
-    .banner__info {
+    .banner-info {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    .banner__info-wrapper {
+    .banner-info__wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    .banner__link {
+    .banner-info__link {
         margin-bottom: 40px;
         font-size: 18px;
     }
 
-    .banner__brands {
+    .banner-info__brands {
         margin-bottom: 40px;
     }
 
-    .banner__descr {
+    .banner-info__descr {
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -94,7 +94,7 @@
 }
 
 @media (max-width: 767px) {
-    .banner__info {
+    .banner-info {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -103,7 +103,7 @@
         background: #1d2631;
     }
 
-    .banner__info-wrapper {
+    .banner-info__wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -111,18 +111,18 @@
         padding: 28px 0 35px;
     }
 
-    .banner__link {
+    .banner-info__link {
         margin-bottom: 30px;
         font-size: 18px;
         max-width: 500px;
     }
 
-    .banner__brands {
+    .banner-info__brands {
         margin-bottom: 25px;
         max-width: 300px;
     }
 
-    .banner__descr {
+    .banner-info__descr {
         justify-content: center;
         align-items: center;
         width: 85%;
