@@ -18,7 +18,7 @@
         display: none;
     }
 
-    .burger-menu--open .navigation {
+    .burger--open .navigation {
         display: flex;
         flex-direction: column;
         align-items: center;

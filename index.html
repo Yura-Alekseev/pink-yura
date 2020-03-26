@@ -12,18 +12,18 @@
 
 <header class="header" id="header">
     <div class="header__wrapper">
-        <div class="header__header">
-            <div class="header__header-wrapper">
-                <a class="header__link-logo" href="/">
+        <div class="burger">
+            <div class="burger__wrapper">
+                <a class="burger__link-logo" href="/">
                     <picture>
                         <source srcset="img/logo-header.svg" media="(min-width: 1024px)">
                         <source srcset="img/logo-header-tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
-                        <img src="img/logo-header-mobile.svg" class="header__logo" alt="header-logo">
+                        <img src="img/logo-header-mobile.svg" class="burger__logo" alt="header-logo">
                     </picture>
                 </a>
 
-                <img class="header__burger-menu-logo" id="burger-menu" src="img/menu-burger.svg" alt="menu">
-                <img class="header__burger-menu-close" src="img/menu-cross.svg" alt="close">
+                <img class="burger-open" id="burger-menu" src="img/menu-burger.svg" alt="menu">
+                <img class="burger-close" src="img/menu-cross.svg" alt="close">
             </div>
         </div>
 
@@ -37,50 +37,50 @@
     </div>
 </header>
 
-<main class="main">
-    <div class="banner">
-        <div class="banner-bg__wrapper">
-            <div class="banner-bg">
-                <picture>
-                    <source srcset="img/hand.png" media="(min-width: 1024px)">
-                    <source srcset="img/logo-header-tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
-                    <img src="img/hand-mobile.png" class="banner__hand" alt="hand">
-                </picture>
-            </div>
+<div class="banner">
+    <div class="banner-bg__wrapper">
+        <div class="banner-bg">
+            <picture>
+                <source srcset="img/hand.png" media="(min-width: 1024px)">
+                <source srcset="img/logo-header-tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                <img src="img/hand-mobile.png" class="banner__hand" alt="hand">
+            </picture>
         </div>
-
-        <section class="banner__wrapper">
-            <div class="banner__sub-wrapper">
-                <h2 class="banner__title">Взгляните на жизнь иначе!</h2>
-                <div class="banner__info">
-                    <div class="banner__info-wrapper">
-                        <a class="banner__link" href="javascript:;">Скачать приложение</a>
-
-                        <div class="banner__brands">
-                            <a class="banner__brand-link" href="https://www.apple.com/" target="_blank">
-                                <img class="banner__brand-apple" src="img/apple-logo.svg" alt="brand-apple">
-                            </a>
-
-                            <a class="banner__brand-link" href="https://www.android.com/" target="_blank">
-                                <img class="banner__brand-android" src="img/android-logo.svg" alt="brand-apple">
-                            </a>
-
-                            <a class="banner__brand-link" href="https://www.microsoft.com/" target="_blank">
-                                <img class="banner__brand-microsoft" src="img/microsoft-logo.svg" alt="brand-apple">
-
-                            </a>
-                        </div>
-
-                        <span class="banner__descr">
-                        Доступно для iPhone, iPad, Android,
-                        Windows Phone, OS X, Windows 8
-                    </span>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
 
+    <section class="banner__wrapper">
+        <div class="banner__sub-wrapper">
+            <h2 class="banner__title">Взгляните на жизнь иначе!</h2>
+            <div class="banner-info">
+                <div class="banner-info__wrapper">
+                    <a class="banner-info__link" href="javascript:;">Скачать приложение</a>
+
+                    <div class="banner-info__brands">
+                        <a class="banner-info__brand-link" href="https://www.apple.com/" target="_blank">
+                            <img class="banner-info__brand-apple" src="img/apple-logo.svg" alt="brand-apple">
+                        </a>
+
+                        <a class="banner-info__brand-link" href="https://www.android.com/" target="_blank">
+                            <img class="banner-info__brand-android" src="img/android-logo.svg" alt="brand-apple">
+                        </a>
+
+                        <a class="banner-info__brand-link" href="https://www.microsoft.com/" target="_blank">
+                            <img class="banner-info__brand-microsoft" src="img/microsoft-logo.svg" alt="brand-apple">
+
+                        </a>
+                    </div>
+
+                    <span class="banner-info__descr">
+                            Доступно для iPhone, iPad, Android,
+                            Windows Phone, OS X, Windows 8
+                        </span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<main class="main">
     <section class="content-section offers">
         <div class="content-section__bg"></div>
         <div class="content-section__wrapper">

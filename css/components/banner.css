@@ -1,7 +1,6 @@
 .banner {
     position: relative;
-    height: 100vh;
-    margin-top: -110px;
+    height: auto;
 }
 
 .banner-bg__wrapper {
@@ -9,6 +8,8 @@
     top: 0;
     left: 0;
     width: 100%;
+    height: 100vh;
+    margin-top: -110px;
     z-index: -1;
 }
 
@@ -32,7 +33,7 @@
 .banner__wrapper {
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 663px;
     width: 73%;
     margin: 0 auto;
     z-index: 10;
@@ -58,11 +59,15 @@
     line-height: 1.2;
 }
 
-
 @media (max-width: 767px) {
     .banner {
         height: auto;
         margin-top: -68px;
+    }
+
+    .banner-bg__wrapper {
+        height: auto;
+        margin-top: 0;
     }
 
     .banner-bg {
@@ -84,8 +89,8 @@
         flex-direction: column;
         justify-content: flex-start;
         width: 87%;
+        height: auto;
         margin: 68px auto 0;
-        padding-top: 25px;
     }
 
     .banner__sub-wrapper {
@@ -96,6 +101,7 @@
     }
 
     .banner__title {
+        padding-top: 25px;
         font-size: 24px;
         margin-bottom: 0;
         line-height: 1.2;
