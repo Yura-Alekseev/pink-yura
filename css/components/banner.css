@@ -96,12 +96,13 @@
     .banner__sub-wrapper {
         flex-direction: column;
         justify-content: space-between;
-        height: 638px;
+        height: 664px;
         width: 100%;
     }
 
     .banner__title {
         padding-top: 25px;
+        width: 100%;
         font-size: 24px;
         margin-bottom: 0;
         line-height: 1.2;
