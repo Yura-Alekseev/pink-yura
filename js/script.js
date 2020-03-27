@@ -1,14 +1,10 @@
 let header = document.getElementById('header');
-let burgerMenu = header.querySelector('.burger-open');
-let closeBurgerMenu = header.querySelector('.burger-close');
+let burgerMenu = header.querySelector('.burger__toggle');
 
-burgerMenu.addEventListener('click', function () {
-    header.classList.add('burger--open');
+burgerMenu.addEventListener('change', () => {
+    header.classList.toggle('burger--open');
 });
 
-closeBurgerMenu.addEventListener('click', function () {
-    header.classList.remove('burger--open');
-});
 
 
 
