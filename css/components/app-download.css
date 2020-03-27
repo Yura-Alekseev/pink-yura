@@ -1,16 +1,16 @@
-.banner-info {
+.app-download {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.banner-info__wrapper {
+.app-download__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.banner-info__link {
+.app-download__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
     text-decoration: none;
 }
 
-.banner-info__brands {
+.app-download__brands {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,22 +34,22 @@
     margin-bottom: 52px;
 }
 
-.banner-info__brand-apple {
+.app-download__brand-apple {
     width: 47px;
     height: 56px;
 }
 
-.banner-info__brand-android {
+.app-download__brand-android {
     width: 43px;
     height: 47px;
 }
 
-.banner-info__brand-microsoft {
+.app-download__brand-microsoft {
     width: 44px;
     height: 41px;
 }
 
-.banner-info__descr {
+.app-download__descr {
     display: flex;
     align-items: center;
     width: 100%;
@@ -61,30 +61,30 @@
 }
 
 @media (max-width: 1023px) {
-    .banner-info {
+    .app-download {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    .banner-info__wrapper {
+    .app-download__wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    .banner-info__link {
+    .app-download__link {
         margin-bottom: 40px;
         font-size: 18px;
     }
 
-    .banner-info__brands {
+    .app-download__brands {
         margin-bottom: 40px;
     }
 
-    .banner-info__descr {
+    .app-download__descr {
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -94,7 +94,7 @@
 }
 
 @media (max-width: 767px) {
-    .banner-info {
+    .app-download {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -103,7 +103,7 @@
         background: #1d2631;
     }
 
-    .banner-info__wrapper {
+    .app-download__wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -111,18 +111,18 @@
         padding: 28px 0 35px;
     }
 
-    .banner-info__link {
+    .app-download__link {
         margin-bottom: 30px;
         font-size: 18px;
         max-width: 500px;
     }
 
-    .banner-info__brands {
+    .app-download__brands {
         margin-bottom: 25px;
         max-width: 300px;
     }
 
-    .banner-info__descr {
+    .app-download__descr {
         justify-content: center;
         align-items: center;
         width: 85%;
