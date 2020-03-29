@@ -39,3 +39,9 @@
 .facts__link:hover {
     text-decoration: none;
 }
+
+@media (max-width: 767px) {
+    .facts {
+        display: none;
+    }
+}

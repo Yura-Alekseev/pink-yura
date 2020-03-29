@@ -30,3 +30,43 @@
     line-height: 1.6;
     color: #283645;
 }
+
+.offers-list__photo--mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .offers-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .offers-list__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-bottom: 35px;
+    }
+
+    .offers-list__photo {
+        display: none;
+    }
+
+    .offers-list__title {
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+
+    .offers-list__text {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .offers-list__photo--mobile {
+        display: block;
+    }
+}

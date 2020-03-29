@@ -15,7 +15,26 @@
 }
 
 .comments__author-info {
+    display: block;
     font-family: "OpenSans Regular", sans-serif;
     font-size: 18px;
     color: #283645;
+}
+
+@media (max-width: 767px) {
+    .comments__text {
+        width: 100%;
+        margin-bottom: 40px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .comments__author {
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+
+    .comments__author-info {
+        display: none;
+    }
 }
