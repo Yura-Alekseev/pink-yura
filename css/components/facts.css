@@ -40,6 +40,44 @@
     text-decoration: none;
 }
 
+@media (max-width: 1023px) {
+    .facts .content-section__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 60px 0 0;
+        width: 94%;
+    }
+
+    .facts .content-section__bg {
+        background: #ffffff ;
+    }
+
+    .facts__timer {
+        width: 238px;
+        height: 276px;
+        margin-right: 70px;
+    }
+
+    .facts__main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .facts__title {
+        margin-bottom: 20px;
+    }
+
+    .facts__text {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .facts__link {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 767px) {
     .facts {
         display: none;

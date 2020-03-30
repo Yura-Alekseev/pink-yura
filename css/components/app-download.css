@@ -60,6 +60,39 @@
     line-height: 1.3;
 }
 
+@media (max-width: 1023px) {
+    .app-download {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .app-download__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .app-download__link {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+
+    .app-download__brands {
+        margin-bottom: 40px;
+    }
+
+    .app-download__descr {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}
+
 @media (max-width: 767px) {
     .app-download {
         display: flex;
