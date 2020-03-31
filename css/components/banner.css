@@ -151,4 +151,18 @@
         margin-bottom: 0;
         line-height: 1.2;
     }
+
+    /*FORM-MOBILE*/
+
+    .banner--form-mobile .banner-bg {
+        height: 237px;
+    }
+
+    .banner--form-mobile .banner__sub-wrapper {
+        height: 168px;
+    }
+
+    .banner--form-mobile .banner__title {
+        padding-top: 30px;
+    }
 }

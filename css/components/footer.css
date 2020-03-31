@@ -66,4 +66,17 @@
     .footer {
         display: none;
     }
+
+    .footer--form-mobile {
+        display: flex;
+        height: 284px;
+    }
+
+    .footer--form-mobile .content-section__wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 87%;
+        padding: 40px 0;
+    }
 }
