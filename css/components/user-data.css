@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.user-data .content-section__wrapper {
+    width: 87%;
+}
+
 .user-data__item {
     display: flex;
     flex-direction: column;

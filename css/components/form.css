@@ -1,5 +1,7 @@
-.form .content-section__wrapper {
-    flex-direction: column;
+.form {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    width: 87%;
+    flex-wrap: wrap;
+    width: 100%;
 }
