@@ -19,7 +19,11 @@
 @import "components/contacts.css";
 @import "components/map.css";
 @import "components/footer.css";
+
+/*FORM*/
 @import "components/ad.css";
+@import "components/form.css";
+@import "components/user-data.css";
 
 
 

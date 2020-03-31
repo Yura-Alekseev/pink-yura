@@ -1,0 +1,5 @@
+.form .content-section__wrapper {
+    flex-direction: column;
+    align-items: center;
+    width: 87%;
+}
