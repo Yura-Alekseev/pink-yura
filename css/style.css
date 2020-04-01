@@ -23,9 +23,10 @@
 /*FORM*/
 @import "components/ad.css";
 @import "components/form.css";
-@import "components/form-item.css";
+@import "components/form-section.css";
 @import "components/user-data.css";
 @import "components/achievements.css";
 @import "components/check.css";
+@import "components/form-contacts.css";
 
 

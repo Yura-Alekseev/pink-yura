@@ -61,67 +61,81 @@
     </section>
 
     <form class="content-section form">
-        <div class="user-data">
+        <div class="form-section user-data">
             <div class="content-section__wrapper">
-                <label class="user-data__item">
-                    <span class="user-data__title">фамилия:</span>
-                    <input class="user-data__input" type="text" placeholder="Укажите фамилию *" required>
-                </label>
+                <div class="form-section__item">
+                    <span class="form-section__label">фамилия:</span>
+                    <input class="form-section__input" type="text" placeholder="Укажите фамилию *" required>
+                </div>
 
-                <label class="user-data__item">
-                    <span class="user-data__title">имя:</span>
-                    <input class="user-data__input" type="text" placeholder="Введите ваш имя *" required>
-                </label>
+                <div class="form-section__item">
+                    <span class="form-section__label">имя:</span>
+                    <input class="form-section__input" type="text" placeholder="Введите ваш имя *" required>
+                </div>
 
-                <label class="user-data__item">
-                    <span class="user-data__title">отчество:</span>
-                    <input class="user-data__input" type="text" placeholder="Ну и отчество тоже">
-                </label>
+                <div class="form-section__item">
+                    <span class="form-section__label">отчество:</span>
+                    <input class="form-section__input" type="text" placeholder="Ну и отчество тоже">
+                </div>
             </div>
         </div>
 
-        <fieldset class="form-item achievements">
+        <fieldset class="form-section achievements">
             <div class="content-section__wrapper">
-                <h2 class="form-item__title">
+                <h2 class="form-section__title">
                     Ваши безбашенные
                     достижения в путешествии
                 </h2>
 
-                <label class="check achievements__item">
+                <label class="check">
                     <input class="check__input" type="checkbox" checked>
                     <span class="check__box"></span>
                     Сделал селфи с акулой
                 </label>
 
-                <label class="check achievements__item">
+                <label class="check">
                     <input class="check__input" type="checkbox" checked>
                     <span class="check__box"></span>
                     Обгорел на пляже
                 </label>
 
-                <label class="check achievements__item">
+                <label class="check">
                     <input class="check__input" type="checkbox">
                     <span class="check__box"></span>
                     Видел Чака Норриса
                 </label>
 
-                <label class="check achievements__item">
+                <label class="check">
                     <input class="check__input" type="checkbox">
                     <span class="check__box"></span>
                     Накупил сувениров
                 </label>
 
-                <label class="check achievements__item">
+                <label class="check">
                     <input class="check__input" type="checkbox" checked>
                     <span class="check__box"></span>
                     Удержал башню
                 </label>
 
-                <label class="check achievements__item">
+                <label class="check">
                     <input class="check__input" type="checkbox">
                     <span class="check__box"></span>
                     Разгромил отель
                 </label>
+            </div>
+        </fieldset>
+
+        <fieldset class="form-section form-contacts">
+            <div class="content-section__wrapper">
+                <div class="form-section__item">
+                    <span class="form-section__label">номер телефона</span>
+                    <input class="form-section__input" type="text" placeholder="Номер, пожалуйста" required>
+                </div>
+
+                <div class="form-section__item">
+                    <span class="form-section__label">адрес почты</span>
+                    <input class="form-section__input" type="text" placeholder="Введите почту *" required>
+                </div>
             </div>
         </fieldset>
     </form>
