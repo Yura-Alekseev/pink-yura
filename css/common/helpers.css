@@ -1,3 +1,7 @@
+.hide-popup {
+    display: none !important;
+}
+
 @media (max-width: 767px) {
     .hide-on-mobile {
         display: none;
