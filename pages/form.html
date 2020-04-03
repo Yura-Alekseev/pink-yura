@@ -64,18 +64,18 @@
         <div class="form-section user-data">
             <div class="content-section__wrapper">
                 <div class="form-section__item">
-                    <span class="form-section__label">фамилия:</span>
-                    <input class="form-section__input" type="text" placeholder="Укажите фамилию *" required>
+                    <label class="form-section__label" for="surname">фамилия:</label>
+                    <input class="form-section__input" type="text" id="surname" placeholder="Укажите фамилию *" required>
                 </div>
 
                 <div class="form-section__item">
-                    <span class="form-section__label">имя:</span>
-                    <input class="form-section__input" type="text" placeholder="Введите ваш имя *" required>
+                    <label class="form-section__label" for="name">имя:</label>
+                    <input class="form-section__input" id="name" type="text" placeholder="Введите ваш имя *" required>
                 </div>
 
                 <div class="form-section__item">
-                    <span class="form-section__label">отчество:</span>
-                    <input class="form-section__input" type="text" placeholder="Ну и отчество тоже">
+                    <label class="form-section__label" for="second-name">отчество:</label>
+                    <input class="form-section__input" type="text" id="second-name" placeholder="Ну и отчество тоже">
                 </div>
             </div>
         </div>
@@ -128,13 +128,13 @@
         <fieldset class="form-section form-contacts">
             <div class="content-section__wrapper">
                 <div class="form-section__item">
-                    <span class="form-section__label">номер телефона</span>
-                    <input class="form-section__input" type="text" placeholder="Номер, пожалуйста">
+                    <label class="form-section__label" for="tel">номер телефона</label>
+                    <input class="form-section__input" id="tel" type="text" placeholder="Номер, пожалуйста">
                 </div>
 
                 <div class="form-section__item">
-                    <span class="form-section__label">адрес почты</span>
-                    <input class="form-section__input" type="text" placeholder="Введите почту *" required>
+                    <label class="form-section__label" for="email">адрес почты</label>
+                    <input class="form-section__input" id="email" type="text" placeholder="Введите почту *" required>
                 </div>
             </div>
         </fieldset>
@@ -168,10 +168,10 @@
         <fieldset class="form-section form-comment">
             <div class="content-section__wrapper">
                 <h2 class="form-section__title">
-                    Опишите свои эмоции
+                    <label for="comment">Опишите свои эмоции</label>
                 </h2>
 
-                <textarea class="form-section__textarea" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                <textarea class="form-section__textarea" id="comment" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
             </div>
         </fieldset>
 
