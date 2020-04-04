@@ -21,3 +21,16 @@
     margin: 0 auto;
     width: 73%;
 }
+
+@media (max-width: 1023px) {
+    .content-section__wrapper {
+        width: 94%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .content-section__wrapper {
+        width: 87%;
+    }
+}

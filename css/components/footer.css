@@ -45,10 +45,6 @@
         height: 127px;
     }
 
-    .footer .content-section__wrapper {
-        width: 94%;
-    }
-
     .footer__rights {
         display: flex;
         align-items: center;

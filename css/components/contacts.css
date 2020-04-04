@@ -46,7 +46,6 @@
 
 @media (max-width: 1023px) {
     .contacts .content-section__wrapper {
-        width: 94%;
         padding: 50px 0 0;
     }
 
@@ -84,7 +83,6 @@
 
 @media (max-width: 767px) {
     .contacts .content-section__wrapper {
-        width: 87%;
         padding: 50px 0 40px;
     }
 
