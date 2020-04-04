@@ -1,12 +1,20 @@
 .radio {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: left;
     width: 100%;
+}
+
+.radio__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
     margin-top: 35px;
     font-family: "OpenSans Regular", sans-serif;
     font-size: 18px;
     color: #283645;
+    cursor: pointer;
 }
 
 .radio__input {
