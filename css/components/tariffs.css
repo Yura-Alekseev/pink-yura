@@ -16,9 +16,6 @@
     }
 
     .tariffs .content-section__wrapper {
-        flex-direction: column;
-        align-items: center;
-        width: 94%;
         padding: 90px 0 80px;
     }
 }
@@ -28,7 +25,4 @@
         clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0% 100%);
     }
 
-    .tariffs .content-section__wrapper {
-        width: 87%;
-    }
 }

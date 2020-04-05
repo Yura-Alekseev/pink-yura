@@ -1,4 +1,5 @@
 @import "common/reset.css";
+@import "common/helpers.css";
 @import "fonts.css";
 
 @import "components/header.css";
@@ -19,6 +20,19 @@
 @import "components/map.css";
 @import "components/footer.css";
 
-
+/*FORM*/
+@import "components/ad.css";
+@import "components/form.css";
+@import "components/form-section.css";
+@import "components/user-data.css";
+@import "components/achievements.css";
+@import "components/check.css";
+@import "components/form-contacts.css";
+@import "components/apps.css";
+@import "components/radio-button.css";
+@import "components/form-comment.css";
+@import "components/submit.css";
+@import "components/button.css";
+@import "components/pop-up.css";
 
 

@@ -1,0 +1,12 @@
+.ad {
+    padding: 40px 0;
+}
+
+.ad__title {
+    text-align: center;
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 14px;
+    line-height: 1.9;
+    color: #283645;
+}
+

@@ -31,7 +31,6 @@
 
 @media (max-width: 1023px) {
     .offers .content-section__wrapper {
-        width: 94%;
         padding-bottom: 0;
     }
 
@@ -65,7 +64,6 @@
 
 @media (max-width: 767px) {
     .offers .content-section__wrapper {
-        width: 87%;
         padding-bottom: 0;
     }
 
