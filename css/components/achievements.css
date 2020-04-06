@@ -11,6 +11,12 @@
     .achievements {
         order: 4;
         background: none;
+        padding: 10px 0 50px;
+        margin-bottom: 60px;
+    }
+
+    .achievements .content-section__wrapper {
+        width: 80%;
     }
 
     .achievements .form-section__title {

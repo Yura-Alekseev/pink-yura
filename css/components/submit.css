@@ -5,5 +5,18 @@
 @media (min-width: 768px) {
     .submit {
         order: 6;
+        border: none;
+        margin-bottom: 60px;
+    }
+
+    .submit .content-section__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .submit .button {
+        width: 300px;
+        margin-bottom: 0;
     }
 }

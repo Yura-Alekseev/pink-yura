@@ -120,17 +120,8 @@
     }
 
     .form-section__textarea {
-        width: 84%;
-        height: 156px;
-        margin-top: 20px;
-        padding: 20px;
-        border: 2px solid #e5e5e5;
-        border-radius: 3px;
-        resize: none;
-        font-family: "OpenSans Regular", sans-serif;
-        font-size: 18px;
-        line-height: 1.9;
-        color: #283645;
+        width: 92%;
+        margin-top: 0;
     }
 
     .form-section__subtitle {
