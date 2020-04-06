@@ -47,3 +47,24 @@
     padding: 50px 0;
     background: #f2f2f2;
 }
+
+@media (min-width: 768px) {
+    .pop-up__wrapper {
+        width: 460px;
+        border-radius: 5px;
+    }
+
+    .pop-up__title {
+        width: 50%;
+        margin-bottom: 30px;
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .pop-up__text {
+        width: 75%;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+}
