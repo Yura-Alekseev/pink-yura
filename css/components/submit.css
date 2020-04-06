@@ -1,3 +1,9 @@
 .submit .button {
     margin-bottom: 40px;
 }
+
+@media (min-width: 768px) {
+    .submit {
+        order: 6;
+    }
+}

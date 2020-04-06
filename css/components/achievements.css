@@ -1,5 +1,19 @@
 .achievements {
-    padding: 40px 0;
+    padding: 80px 0 40px;
     background: #f2f2f2;
 }
 
+.achievements .form-section__title {
+    width: 74%;
+}
+
+@media (min-width: 768px) {
+    .achievements {
+        order: 4;
+        background: none;
+    }
+
+    .achievements .form-section__title {
+        width: auto;
+    }
+}

@@ -6,3 +6,9 @@
     padding-bottom: 15px;
 }
 
+@media (min-width: 768px) {
+    .user-data {
+        order: 1;
+        border: none;
+    }
+}

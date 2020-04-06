@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: left;
     width: 100%;
+    margin-top: 35px;
 }
 
 .radio__container {
@@ -10,7 +11,6 @@
     flex-direction: row;
     align-items: center;
     width: fit-content;
-    margin-top: 35px;
     font-family: "OpenSans Regular", sans-serif;
     font-size: 18px;
     color: #283645;

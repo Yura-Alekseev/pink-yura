@@ -61,7 +61,7 @@
     </section>
 
     <form class="content-section form">
-        <div class="form-section user-data">
+        <fieldset class="form-section user-data">
             <div class="content-section__wrapper">
                 <label class="form-section__item">
                     <span class="form-section__label">фамилия:</span>
@@ -78,15 +78,14 @@
                     <input class="form-section__input" type="text" placeholder="Ну и отчество тоже">
                 </label>
             </div>
-        </div>
+        </fieldset>
 
         <fieldset class="form-section achievements">
+            <legend class="form-section__title">
+                Ваши безбашенные
+                достижения в путешествии
+            </legend>
             <div class="content-section__wrapper">
-                <h2 class="form-section__title">
-                    Ваши безбашенные
-                    достижения в путешествии
-                </h2>
-
                 <div class="check">
                     <label class="check__container">
                         <input class="check__input" type="checkbox" checked>
@@ -138,25 +137,38 @@
         </fieldset>
 
         <fieldset class="form-section form-contacts">
+            <legend class="form-section__title hide-on-mobile">контактная информация</legend>
             <div class="content-section__wrapper">
                 <label class="form-section__item">
                     <span class="form-section__label">номер телефона</span>
-                    <input class="form-section__input" type="text" placeholder="Номер, пожалуйста">
+
+                    <div class="form-section__item-wrapper">
+                        <input class="form-section__input" type="text" placeholder="Номер, пожалуйста">
+                        <span class="form-section__input-logo">
+                            <img class="form-section__input-icon" src="../img/phone.svg" alt="tel">
+                        </span>
+                    </div>
                 </label>
 
                 <label class="form-section__item">
                     <span class="form-section__label">адрес почты</span>
-                    <input class="form-section__input" type="text" placeholder="Введите почту *" required>
+
+                    <div class="form-section__item-wrapper">
+                        <input class="form-section__input" type="text" placeholder="Введите почту *" required>
+                        <span class="form-section__input-logo">
+                            <img class="form-section__input-icon" src="../img/mail.svg" alt="tel">
+                        </span>
+                    </div>
                 </label>
             </div>
         </fieldset>
 
         <fieldset class="form-section apps">
-            <div class="content-section__wrapper">
-                <h2 class="form-section__title">
-                    С каким приложением путешествовали?
-                </h2>
+            <legend class="form-section__title">
+                С каким приложением путешествовали?
+            </legend>
 
+            <div class="content-section__wrapper">
                 <div class="radio">
                     <label class="radio__container">
                         <input class="radio__input" type="radio" value="iOS" name="apps" checked>
@@ -184,11 +196,10 @@
         </fieldset>
 
         <fieldset class="form-section form-comment">
+            <legend class="form-section__title">
+                <label for="comment">Опишите свои эмоции</label>
+            </legend>
             <div class="content-section__wrapper">
-                <h2 class="form-section__title">
-                    <label for="comment">Опишите свои эмоции</label>
-                </h2>
-
                 <textarea class="form-section__textarea" id="comment" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
             </div>
         </fieldset>
