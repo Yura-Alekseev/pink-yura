@@ -12,3 +12,16 @@
         border: none;
     }
 }
+
+@media (min-width: 1024px) {
+    .user-data {
+        width: 48%;
+        align-items: flex-start;
+        margin: unset;
+    }
+
+    .user-data .content-section__wrapper {
+
+        width: 100%;
+    }
+}
