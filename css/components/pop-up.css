@@ -68,3 +68,27 @@
         margin-bottom: 40px;
     }
 }
+
+@media (min-width: 1024px) {
+    .pop-up__wrapper {
+        width: 780px;
+    }
+
+    .pop-up__title {
+        width: 70%;
+    }
+
+    .pop-up__text {
+        width: 62%;
+        margin-bottom: 60px;
+    }
+
+    .pop-up__footer {
+        padding: 50px 0;
+        background: #f2f2f2;
+    }
+
+    .pop-up--success .button {
+        width: 460px;
+    }
+}
