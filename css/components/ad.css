@@ -21,3 +21,13 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .ad {
+        padding: 90px 0 70px;
+    }
+
+    .ad__title {
+        width: 90%;
+    }
+}
+

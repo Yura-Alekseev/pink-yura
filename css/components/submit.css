@@ -19,3 +19,9 @@
         margin-bottom: 0;
     }
 }
+
+@media (min-width: 1024px) {
+    .submit {
+        margin-bottom: 0;
+    }
+}

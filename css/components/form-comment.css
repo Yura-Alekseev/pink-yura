@@ -13,3 +13,9 @@
         width: 80%;
     }
 }
+
+@media (min-width: 1024px) {
+    .form-comment .content-section__wrapper {
+        width: 87%;
+    }
+}

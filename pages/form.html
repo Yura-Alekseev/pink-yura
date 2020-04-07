@@ -86,52 +86,59 @@
                 достижения в путешествии
             </legend>
             <div class="content-section__wrapper">
-                <div class="check">
-                    <label class="check__container">
-                        <input class="check__input" type="checkbox" checked>
-                        <span class="check__box"></span>
-                        Сделал селфи с акулой
-                    </label>
+                <div class="achievements__items-wrapper">
+                    <div class="check">
+                        <label class="check__container">
+                            <input class="check__input" type="checkbox" checked>
+                            <span class="check__box"></span>
+                            Сделал селфи с акулой
+                        </label>
+                    </div>
+
+                    <div class="check">
+                        <label class="check__container">
+                            <input class="check__input" type="checkbox" checked>
+                            <span class="check__box"></span>
+                            Обгорел на пляже
+                        </label>
+                    </div>
                 </div>
 
-                <div class="check">
-                    <label class="check__container">
-                        <input class="check__input" type="checkbox" checked>
-                        <span class="check__box"></span>
-                        Обгорел на пляже
-                    </label>
+                <div class="achievements__items-wrapper">
+                    <div class="check">
+                        <label class="check__container">
+                            <input class="check__input" type="checkbox">
+                            <span class="check__box"></span>
+                            Видел Чака Норриса
+                        </label>
+                    </div>
+
+                    <div class="check">
+                        <label class="check__container">
+                            <input class="check__input" type="checkbox">
+                            <span class="check__box"></span>
+                            Накупил сувениров
+                        </label>
+                    </div>
                 </div>
 
-                <div class="check">
-                    <label class="check__container">
-                        <input class="check__input" type="checkbox">
-                        <span class="check__box"></span>
-                        Видел Чака Норриса
-                    </label>
-                </div>
 
-                <div class="check">
-                    <label class="check__container">
-                        <input class="check__input" type="checkbox">
-                        <span class="check__box"></span>
-                        Накупил сувениров
-                    </label>
-                </div>
+                <div class="achievements__items-wrapper">
+                    <div class="check">
+                        <label class="check__container">
+                            <input class="check__input" type="checkbox" checked>
+                            <span class="check__box"></span>
+                            Удержал башню
+                        </label>
+                    </div>
 
-                <div class="check">
-                    <label class="check__container">
-                        <input class="check__input" type="checkbox" checked>
-                        <span class="check__box"></span>
-                        Удержал башню
-                    </label>
-                </div>
-
-                <div class="check">
-                    <label class="check__container">
-                        <input class="check__input" type="checkbox">
-                        <span class="check__box"></span>
-                        Разгромил отель
-                    </label>
+                    <div class="check">
+                        <label class="check__container">
+                            <input class="check__input" type="checkbox">
+                            <span class="check__box"></span>
+                            Разгромил отель
+                        </label>
+                    </div>
                 </div>
             </div>
         </fieldset>
@@ -145,8 +152,8 @@
                     <div class="form-section__item-wrapper">
                         <input class="form-section__input" type="text" placeholder="Номер, пожалуйста">
                         <span class="form-section__input-logo">
-                            <img class="form-section__input-icon" src="../img/phone.svg" alt="tel">
-                        </span>
+                                <img class="form-section__input-icon" src="../img/phone.svg" alt="tel">
+                            </span>
                     </div>
                 </label>
 
@@ -156,8 +163,8 @@
                     <div class="form-section__item-wrapper">
                         <input class="form-section__input" type="text" placeholder="Введите почту *" required>
                         <span class="form-section__input-logo">
-                            <img class="form-section__input-icon" src="../img/mail.svg" alt="tel">
-                        </span>
+                                <img class="form-section__input-icon" src="../img/mail.svg" alt="tel">
+                            </span>
                     </div>
                 </label>
             </div>
@@ -200,14 +207,15 @@
                 <label for="comment">Опишите свои эмоции</label>
             </legend>
             <div class="content-section__wrapper">
-                <textarea class="form-section__textarea" id="comment" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                <textarea class="form-section__textarea" id="comment"
+                          placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
             </div>
         </fieldset>
 
         <div class="form-section submit">
             <div class="content-section__wrapper">
                 <button class="button" type="submit">отправить форму</button>
-                <span class="form-section__subtitle"><span>*</span> — обязательные поля</span>
+                <span class="form-section__subtitle"><i>*</i> — обязательные <span class="hide-on-tablet">для заполения</span> поля</span>
             </div>
         </div>
     </form>
@@ -284,7 +292,6 @@
         </div>
     </div>
 </template>
-
 <script src="../js/script.js"></script>
 </body>
 </html>

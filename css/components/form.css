@@ -5,3 +5,11 @@
     flex-wrap: wrap;
     width: 100%;
 }
+
+@media (min-width: 1024px) {
+    .form {
+        width: 78%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+}

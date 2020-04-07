@@ -74,7 +74,7 @@
     text-transform: uppercase;
 }
 
-.form-section__subtitle span {
+.form-section__subtitle i {
     color: #d22856;
 }
 
@@ -131,7 +131,70 @@
         text-transform: uppercase;
     }
 
-    .form-section__subtitle span {
+    .form-section__subtitle i {
+        color: #d22856;
+    }
+
+    .form-section__input-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 63px;
+        height: 63px;
+        background: #e5e5e5;
+        margin-left: -1px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .form-section {
+        width: 100%;
+    }
+
+    .form-section__title {
+        position: unset;
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0 25px;
+        font-size: 14px;
+    }
+
+    .form-section__item {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .form-section__label {
+        margin-bottom: 0;
+        margin-right: 20px;
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    .form-section__input {
+        width: 100%;
+        padding: 17px 21px;
+        font-size: 18px;
+    }
+
+    .form-section__textarea {
+        width: 94%;
+        margin-top: 0;
+    }
+
+    .form-section__subtitle {
+        font-family: "OpenSans Regular", sans-serif;
+        font-size: 14px;
+        color: #283645;
+        text-transform: uppercase;
+    }
+
+    .form-section__subtitle i {
         color: #d22856;
     }
 

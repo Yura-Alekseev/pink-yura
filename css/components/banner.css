@@ -1,6 +1,7 @@
 .banner {
+    display: flex;
     position: relative;
-    height: auto;
+    height: calc(100vh - 110px);
 }
 
 .banner-bg__wrapper {
@@ -32,8 +33,8 @@
 .banner__wrapper {
     display: flex;
     align-items: center;
-    height: 663px;
-    width: 73%;
+    height: auto;
+    width: 78%;
     margin: 0 auto;
     z-index: 10;
 }
@@ -58,10 +59,38 @@
     line-height: 1.2;
 }
 
+/*FORM-DESKTOP*/
+
+.banner--form {
+    height: auto;
+}
+
+.banner--form .banner-bg__wrapper {
+    height: auto;
+}
+
+.banner--form .banner-bg {
+    height: 394px;
+}
+
+.banner--form .banner__wrapper {
+    width: 80%;
+    height: 284px;
+}
+
+.banner--form .banner__sub-wrapper {
+    height: auto;
+    width: 100%;
+}
+
+.banner--form .banner__title {
+    width: 92%;
+    font-size: 50px;
+}
+
 @media (max-width: 1023px) {
     .banner {
         height: 618px;
-        margin-top: -68px;
     }
 
     .banner__wrapper {
@@ -88,7 +117,7 @@
 
     .banner__wrapper {
         width: 94%;
-        margin: 68px auto 0;
+        margin: 0 auto;
     }
 
     .banner__sub-wrapper {
@@ -132,7 +161,7 @@
 @media (max-width: 767px) {
     .banner {
         height: auto;
-        margin-top: -68px;
+        margin-top: 0;
     }
 
     .banner-bg__wrapper {
@@ -160,7 +189,7 @@
         justify-content: flex-start;
         width: 87%;
         height: auto;
-        margin: 68px auto 0;
+        margin: 0 auto;
     }
 
     .banner__sub-wrapper {
