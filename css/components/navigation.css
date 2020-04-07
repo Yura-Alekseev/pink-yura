@@ -39,3 +39,9 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .navigation__link:hover {
+        text-decoration: underline;
+    }
+}
+
