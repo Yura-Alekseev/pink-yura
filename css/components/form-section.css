@@ -92,7 +92,7 @@
 
     .form-section__title {
         position: unset;
-        width: fit-content;
+        width: auto;
         margin: 0 auto;
         text-align: center;
         padding: 0 25px;
