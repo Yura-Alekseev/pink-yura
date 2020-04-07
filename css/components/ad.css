@@ -10,3 +10,14 @@
     color: #283645;
 }
 
+@media (min-width: 768px) {
+    .ad {
+        padding: 90px 0 60px;
+    }
+
+    .ad__title {
+        width: 70%;
+        font-size: 18px;
+    }
+}
+

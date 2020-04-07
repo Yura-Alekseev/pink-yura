@@ -1,3 +1,21 @@
 .submit .button {
     margin-bottom: 40px;
 }
+
+@media (min-width: 768px) {
+    .submit {
+        order: 6;
+        border: none;
+        margin-bottom: 60px;
+    }
+
+    .submit .content-section__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .submit .button {
+        margin-bottom: 0;
+    }
+}
