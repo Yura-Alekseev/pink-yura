@@ -3,8 +3,17 @@
     background: #f2f2f2;
 }
 
+.achievements .content-section__wrapper {
+    align-items: flex-start;
+}
+
 .achievements .form-section__title {
     width: 74%;
+}
+
+.achievements__items-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (min-width: 768px) {
@@ -21,5 +30,30 @@
 
     .achievements .form-section__title {
         width: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .achievements {
+        padding: 10px 0 50px;
+    }
+
+    .achievements .content-section__wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 87%;
+    }
+
+    .achievements .form-section__title {
+        width: auto;
+    }
+
+    .achievements .check {
+        width: auto;
+    }
+
+    .achievements .check__box {
+        margin-right: 20px;
     }
 }

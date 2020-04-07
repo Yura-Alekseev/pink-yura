@@ -74,7 +74,7 @@
     text-transform: uppercase;
 }
 
-.form-section__subtitle span {
+.form-section__subtitle i {
     color: #d22856;
 }
 
@@ -131,7 +131,7 @@
         text-transform: uppercase;
     }
 
-    .form-section__subtitle span {
+    .form-section__subtitle i {
         color: #d22856;
     }
 
@@ -183,7 +183,7 @@
     }
 
     .form-section__textarea {
-        width: 92%;
+        width: 94%;
         margin-top: 0;
     }
 
@@ -194,7 +194,7 @@
         text-transform: uppercase;
     }
 
-    .form-section__subtitle span {
+    .form-section__subtitle i {
         color: #d22856;
     }
 
