@@ -1,0 +1,121 @@
+.filter {
+    padding: 20px 0 40px;
+    background: #f2f2f2;
+}
+
+.filter__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.filter__image {
+    width: 100%;
+}
+
+.filter__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.filter__tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 38px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dddfe0;
+}
+
+.filter__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 34px;
+}
+
+.filter__list-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.filter__icon {
+    display: flex;
+}
+
+.filter__icon--inactive {
+    display: none;
+}
+
+.filter__item--inactive .filter__icon {
+    display: none;
+}
+
+.filter__item--inactive .filter__icon--inactive {
+    display: flex;
+}
+
+.filter__input {
+    display: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 75%;
+    height: 2px;
+    background: #283645;
+    outline: none;
+}
+
+.filter__input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #d22856;
+    background: #f2f2f2;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.filter__input::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.filter__input--mobile {
+    display: flex;
+}
+
+.filter__buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.filter__btn {
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    border: 3px solid #dddfe0;
+    outline: none;
+    border-radius: 30px;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 18px;
+    color: #dddfe0;
+    cursor: pointer;
+}
+
+.filter__btn--submit {
+    border: 3px solid #d22856;
+    color: #d22856;
+    margin-bottom: 12px;
+}

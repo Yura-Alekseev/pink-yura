@@ -39,3 +39,9 @@
 /*GALLERY*/
 
 @import "components/gallery-title.css";
+@import "components/panorama.css";
+@import "components/panorama-comment.css";
+@import "components/gallery-comment.css";
+@import "components/gallery-list.css";
+@import "components/gallery-item.css";
+@import "components/filter.css";
