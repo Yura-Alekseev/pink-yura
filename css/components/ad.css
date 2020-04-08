@@ -2,32 +2,15 @@
     padding: 40px 0;
 }
 
-.ad__title {
-    text-align: center;
-    font-family: "OpenSans Regular", sans-serif;
-    font-size: 14px;
-    line-height: 1.9;
-    color: #283645;
-}
-
 @media (min-width: 768px) {
     .ad {
         padding: 90px 0 60px;
-    }
-
-    .ad__title {
-        width: 70%;
-        font-size: 18px;
     }
 }
 
 @media (min-width: 1024px) {
     .ad {
         padding: 90px 0 70px;
-    }
-
-    .ad__title {
-        width: 90%;
     }
 }
 
