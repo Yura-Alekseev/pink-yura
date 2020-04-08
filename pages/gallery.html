@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pink</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="header" id="header">
+    <div class="header__wrapper">
+        <div class="burger">
+            <div class="burger__wrapper">
+                <a class="burger__link-logo" href="../index.html">
+                    <picture>
+                        <source srcset="../img/logo-header.svg" media="(min-width: 1024px)">
+                        <source srcset="../img/logo-header-tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                        <img src="../img/logo-header-mobile.svg" class="burger__logo" alt="header-logo">
+                    </picture>
+                </a>
+
+                <input class="burger__toggle" id="burger__toggle" type="checkbox">
+                <label class="burger__btn" for="burger__toggle">
+                    <span></span>
+                </label>
+            </div>
+        </div>
+
+        <nav class="navigation">
+            <a class="navigation__link" href="../index.html">Главная</a>
+            <a class="navigation__link" href="gallery.html">Фотографии</a>
+            <a class="navigation__link" href="form.html">Конкурс</a>
+            <a class="navigation__link" href="javascript:;">HTML Academy</a>
+        </nav>
+    </div>
+</header>
+
+<div class="banner banner--form">
+    <div class="banner-bg__wrapper">
+        <div class="banner-bg"></div>
+    </div>
+
+    <section class="banner__wrapper">
+        <div class="banner__sub-wrapper">
+            <h2 class="banner__title">Фотографии<br> пользователей</h2>
+        </div>
+    </section>
+</div>
+
+<footer class="content-section footer footer--form-mobile">
+    <div class="content-section__wrapper">
+        <a class="footer__link-logo" href="../index.html">
+            <picture>
+                <source srcset="../img/logo-footer.svg" media="(min-width: 1024px)">
+                <img class="footer__logo" src="../img/logo-footer--tablet.svg" alt="footer-logo">
+            </picture>
+        </a>
+
+        <div class="footer__socials">
+            <a class="footer__socials-item" href="javascript:;">
+                <img class="footer__socials-item-logo" src="../img/twitter.svg" alt="twitter-logo">
+            </a>
+
+            <a class="footer__socials-item" href="javascript:;">
+                <img class="footer__socials-item-logo" src="../img/facebook.svg" alt="facebook-logo">
+            </a>
+
+            <a class="footer__socials-item" href="javascript:;">
+                <img class="footer__socials-item-logo" src="../img/youtube.svg" alt="youtube-logo">
+            </a>
+        </div>
+
+        <div class="footer__rights">
+            <span class="footer__rights-text">Разработано</span>
+            <img class="footer__rights-logo" src="../img/htmlacademy.svg" alt="htmlacademy-logo">
+        </div>
+    </div>
+</footer>
+<script src="../js/script.js"></script>
+</body>
+</html>
