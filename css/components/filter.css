@@ -85,10 +85,11 @@
 }
 
 .filter__input::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    width: 14px;
+    height: 14px;
+    border: 2px solid #d22856;
+    background: #f2f2f2;
+    cursor: pointer;
 }
 
 .filter__input--mobile {
