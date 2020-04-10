@@ -60,6 +60,11 @@
     </section>
 
     <section class="content-section panorama">
+
+        <div class="panorama__wrapper">
+            <img class="panorama__photo" src="../img/panorama.jpg">
+        </div>
+
         <div class="content-section__wrapper">
             <span class="panorama__sticker">панорама дня</span>
         </div>
@@ -94,9 +99,9 @@
                 </div>
 
                 <div class="gallery-comment">
-                    <span class="gallery-comment__name">
-                        Левон <span>(5 часов назад)</span>
-                    </span>
+                        <span class="gallery-comment__name">
+                            Левон <span>(5 часов назад)</span>
+                        </span>
 
                     <p class="gallery-comment__text">
                         Вчера он на луну летал, сегодня в руки к нам попал.
@@ -248,21 +253,36 @@
                     <div class="filter__list">
                         <div class="filter__list-wrapper">
                             <label class="filter__item">
-                                <img class="filter__icon" src="../img/crop.svg" alt="crop">
+                                <span class="filter__item-wrapper">
+                                    <picture>
+                                        <source srcset="../img/crop--tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                                        <img class="filter__icon" src="../img/crop.svg" alt="crop">
+                                    </picture>
+                                </span>
                                 <img class="filter__icon--inactive" src="../img/crop--inactive.svg" alt="crop--inactive">
 
                                 <input class="filter__input" type="range">
                             </label>
 
                             <label class="filter__item filter__item--inactive">
-                                <img class="filter__icon" src="../img/fill.svg" alt="fill">
+                                <span class="filter__item-wrapper">
+                                    <picture>
+                                        <source srcset="../img/fill--tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                                        <img class="filter__icon" src="../img/fill.svg" alt="fill">
+                                    </picture>
+                                </span>
                                 <img class="filter__icon--inactive" src="../img/fill--inactive.svg" alt="fill--inactive">
 
                                 <input class="filter__input" type="range">
                             </label>
 
                             <label class="filter__item filter__item--inactive">
-                                <img class="filter__icon" src="../img/contrast.svg" alt="contrast">
+                                <span class="filter__item-wrapper">
+                                    <picture>
+                                        <source srcset="../img/contrast--tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                                        <img class="filter__icon" src="../img/contrast.svg" alt="contrast">
+                                    </picture>
+                                </span>
                                 <img class="filter__icon--inactive" src="../img/contrast--inactive.svg" alt="contrast--inactive">
 
                                 <input class="filter__input" type="range">

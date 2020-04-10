@@ -1,12 +1,27 @@
 .panorama {
     width: 100vw;
     height: 137px;
-    background: url("../../img/panorama.jpg") no-repeat;
-    background-size: cover;
 }
 
 .panorama .content-section__wrapper {
     align-items: flex-end;
+}
+
+.panorama__wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.panorama__photo {
+    width: 100%;
 }
 
 .panorama__sticker {
@@ -16,4 +31,19 @@
     font-size: 12px;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .panorama {
+        position: relative;
+        height: 509px;
+    }
+
+    .panorama__photo {
+        height: 100%;
+    }
+
+    .panorama__sticker {
+        margin-top: 55px;
+    }
 }

@@ -5,3 +5,13 @@
 .gallery-title .title {
     width: 90%;
 }
+
+@media (min-width: 768px) {
+    .gallery-title {
+        padding: 80px 0;
+    }
+
+    .gallery-title .title {
+        width: 70%;
+    }
+}

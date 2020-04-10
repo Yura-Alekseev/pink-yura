@@ -50,3 +50,32 @@
     color: #d22856;
     text-transform: uppercase;
 }
+
+@media (min-width: 768px) {
+    .gallery-comment {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        padding: 30px;
+    }
+
+    .gallery-comment__name {
+        margin-bottom: 10px;
+    }
+
+    .gallery-comment__text {
+        margin-bottom: 10px;
+        min-height: 50px;
+    }
+
+    .gallery-comment__like {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .gallery-comment__like-button {
+        margin-right: 0;
+    }
+}
