@@ -89,6 +89,7 @@
     height: 14px;
     border: 2px solid #d22856;
     background: #f2f2f2;
+    border-radius: 50%;
     cursor: pointer;
 }
 
