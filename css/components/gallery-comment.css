@@ -1,0 +1,52 @@
+.gallery-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px 15px;
+}
+
+.gallery-comment__name {
+    margin-bottom: 6px;
+    font-family: "OpenSans Bold", sans-serif;
+    font-size: 14px;
+    color: #283645;
+}
+
+.gallery-comment__name span {
+    font-family: "OpenSans Light", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.gallery-comment__text {
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 14px;
+    color: #283645;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.gallery-comment__like {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gallery-comment__like-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.gallery-comment__like-count {
+    font-family: "OpenSans Regular", sans-serif;
+    font-size: 12px;
+    color: #d22856;
+    text-transform: uppercase;
+}
