@@ -1,7 +1,35 @@
-.panorama-comment {
-    margin-bottom: 20px;
-}
-
 .panorama-comment .content-section__wrapper {
     background: #f2f2f2;
+}
+
+@media (min-width: 768px) {
+    .panorama-comment {
+        margin-bottom: 30px;
+    }
+
+    .panorama-comment .gallery-comment {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .panorama-comment .gallery-comment__name {
+        order: 1;
+    }
+
+    .panorama-comment .gallery-comment__like {
+        width: auto;
+        order: 2;
+    }
+
+    .panorama-comment .gallery-comment__like-count {
+        margin-right: 17px;
+    }
+
+    .panorama-comment .gallery-comment__text {
+        order: 3;
+        width: 100%;
+        margin-bottom: 0;
+    }
 }

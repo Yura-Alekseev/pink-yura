@@ -4,7 +4,7 @@
     align-items: flex-start;
     width: 100%;
     background: #f2f2f2;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .gallery-item__wrapper {
@@ -18,4 +18,28 @@
 
 .gallery-item__photo {
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .gallery-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 48%;
+        background: #f2f2f2;
+        margin-top: 20px;
+    }
+
+    .gallery-item__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .gallery-item__photo {
+        width: 100%;
+    }
 }
