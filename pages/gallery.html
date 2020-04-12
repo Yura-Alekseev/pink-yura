@@ -60,9 +60,8 @@
     </section>
 
     <section class="content-section panorama">
-
         <div class="panorama__wrapper">
-            <img class="panorama__photo" src="../img/panorama.jpg">
+            <img class="panorama__photo" src="../img/panorama.jpg" alt="panorama">
         </div>
 
         <div class="content-section__wrapper">
@@ -245,57 +244,59 @@
     <section class="content-section filter">
         <div class="content-section__wrapper">
             <div class="filter__wrapper">
-                <img class="filter__image" src="../img/road.jpg" alt="road">
-            </div>
-
-            <div class="filter__main">
-                <div class="filter__tools">
-                    <div class="filter__list">
-                        <div class="filter__list-wrapper">
-                            <label class="filter__item">
-                                <span class="filter__item-wrapper">
-                                    <picture>
-                                        <source srcset="../img/crop--tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
-                                        <img class="filter__icon" src="../img/crop.svg" alt="crop">
-                                    </picture>
-                                </span>
-                                <img class="filter__icon--inactive" src="../img/crop--inactive.svg" alt="crop--inactive">
-
-                                <input class="filter__input" type="range">
-                            </label>
-
-                            <label class="filter__item filter__item--inactive">
-                                <span class="filter__item-wrapper">
-                                    <picture>
-                                        <source srcset="../img/fill--tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
-                                        <img class="filter__icon" src="../img/fill.svg" alt="fill">
-                                    </picture>
-                                </span>
-                                <img class="filter__icon--inactive" src="../img/fill--inactive.svg" alt="fill--inactive">
-
-                                <input class="filter__input" type="range">
-                            </label>
-
-                            <label class="filter__item filter__item--inactive">
-                                <span class="filter__item-wrapper">
-                                    <picture>
-                                        <source srcset="../img/contrast--tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
-                                        <img class="filter__icon" src="../img/contrast.svg" alt="contrast">
-                                    </picture>
-                                </span>
-                                <img class="filter__icon--inactive" src="../img/contrast--inactive.svg" alt="contrast--inactive">
-
-                                <input class="filter__input" type="range">
-                            </label>
-                        </div>
-                    </div>
-
-                    <input class="filter__input filter__input--mobile" type="range">
+                <div class="filter__image-wrapper">
+                    <img class="filter__image" src="../img/road.jpg" alt="road">
                 </div>
 
-                <div class="filter__buttons">
-                    <button class="filter__btn filter__btn--submit" type="submit">Запостить</button>
-                    <button class="filter__btn" type="reset">Отмена</button>
+                <div class="filter__main">
+                    <div class="filter__tools">
+                        <div class="filter__list">
+                            <div class="filter__list-wrapper">
+                                <label class="filter__item">
+                                    <span class="filter__item-wrapper">
+                                        <picture>
+                                            <source srcset="../img/crop--tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                                            <img class="filter__icon" src="../img/crop.svg" alt="crop">
+                                        </picture>
+                                    </span>
+                                    <img class="filter__icon--inactive" src="../img/crop--inactive.svg" alt="crop--inactive">
+
+                                    <input class="filter__input" type="range">
+                                </label>
+
+                                <label class="filter__item filter__item--inactive">
+                                    <span class="filter__item-wrapper">
+                                        <picture>
+                                            <source srcset="../img/fill--tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                                            <img class="filter__icon" src="../img/fill.svg" alt="fill">
+                                        </picture>
+                                    </span>
+                                    <img class="filter__icon--inactive" src="../img/fill--inactive.svg" alt="fill--inactive">
+
+                                    <input class="filter__input" type="range">
+                                </label>
+
+                                <label class="filter__item filter__item--inactive">
+                                    <span class="filter__item-wrapper">
+                                        <picture>
+                                            <source srcset="../img/contrast--tablet.svg" media="(min-width: 768px) and (max-width: 1023px)">
+                                            <img class="filter__icon" src="../img/contrast.svg" alt="contrast">
+                                        </picture>
+                                    </span>
+                                    <img class="filter__icon--inactive" src="../img/contrast--inactive.svg" alt="contrast--inactive">
+
+                                    <input class="filter__input" type="range">
+                                </label>
+                            </div>
+                        </div>
+
+                        <input class="filter__input filter__input--mobile" type="range">
+                    </div>
+
+                    <div class="filter__buttons">
+                        <button class="filter__btn filter__btn--submit" type="submit">Запостить</button>
+                        <button class="filter__btn" type="reset">Отмена</button>
+                    </div>
                 </div>
             </div>
         </div>

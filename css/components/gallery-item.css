@@ -22,24 +22,21 @@
 
 @media (min-width: 768px) {
     .gallery-item {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
         width: 48%;
-        background: #f2f2f2;
-        margin-top: 20px;
     }
 
     .gallery-item__wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
         height: 300px;
-        overflow: hidden;
+    }
+}
+
+@media (min-width:1024px) {
+    .gallery-item {
+        width: 32%;
+        margin-top: 50px;
     }
 
-    .gallery-item__photo {
-        width: 100%;
+    .gallery-item__wrapper {
+        height: 400px;
     }
 }

@@ -30,6 +30,13 @@
     .panorama-comment .gallery-comment__text {
         order: 3;
         width: 100%;
+        min-height: auto;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .panorama-comment {
         margin-bottom: 0;
     }
 }
